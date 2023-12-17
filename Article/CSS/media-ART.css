@@ -129,6 +129,9 @@
         .article-content_14 {
             margin-bottom: 71px;
         }
+        .footer__line {
+            max-width: 960px;
+        }
     }
 /*iPad mini-2*/
 @media (max-width: 768px) {
@@ -283,6 +286,9 @@
     }
     .footer__nav {
         gap: 30px;
+    }
+    .footer__line {
+        max-width: 728px;
     }
     .footer__menu {
         display: grid;
@@ -523,6 +529,9 @@
     }
     .social {
         gap: 20px;
+    }
+    .footer__line {
+        max-width: 374px;
     }
     .copuright {
         flex-direction: column;
@@ -790,6 +799,9 @@
     .social {
         padding-top: 16px;
         gap: 20px;
+    }
+    .footer__line {
+        max-width: 288px;
     }
     .copuright {
         flex-direction: column;

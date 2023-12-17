@@ -109,7 +109,8 @@ footer {
 }
 .footer__line {
     max-width: 1200px;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     opacity: 0.3;
 }
 .copuright-text {

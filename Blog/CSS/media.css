@@ -60,6 +60,9 @@
     .footer__nav {
         gap: 30px;
     }
+    .footer__line {
+        max-width: 960px;
+    }
 }
 /*iPad mini-2*/
 @media (max-width: 768px) {
@@ -139,6 +142,9 @@
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(2, auto);
         row-gap: 26px;
+    }
+    .footer__line {
+        max-width: 728px;
     }
 }
 /*iPhone 11 Pro Max*/
@@ -242,6 +248,9 @@
         padding-top: 20px;
         padding-bottom: 37px;
     }
+    .footer__line {
+        max-width: 374px;
+    }
 }
 /*iPhone SE*/
 @media (max-width: 320px) {
@@ -340,6 +349,9 @@
         }
         .footer__registration_email-regbtn {
             background-image: none;
+        }
+        .footer__line {
+            max-width: 288px;
         }
         .social {
             padding-top: 16px;
